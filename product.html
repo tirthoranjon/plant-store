@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blooming Oasis</title>
+
+  <!-- favicon link here -->
+  <link rel="shortcut icon" href="./Assets/img/pavanprasad_ind-sunflower-7299411_640.jpg" type="image/x-icon">
+
+  <!-- bootstrap icon link here -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <!-- bootstrap link here -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- customs css link here -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <!-- header section here -->
+  <section id="navbar_section" class="sticky-md-top">
+    <nav class="navbar navbar-expand-lg bg-secondary text-light">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold fs-2 text-light" href="#"><img src="./assets/img/logo.png" alt=""
+            class="img-fluid" style="width: 85px; height: 85px;">Blooming
+          Oasis</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fs-3 text-light" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fs-3 text-light" aria-current=" page" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-3 text-light" href="about_us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-3 text-light" href="contact_us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- breadcrumbs section here -->
+  <section id="breadcrumb_section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="breadcrubs-caption text-center">
+          <h1 class="text-uppercase text-light fs-3 fw-bold">product page</h1>
+          <div class="breadcrumbs-caption-btn pt-3">
+            <a href="" class="text-uppercase text-decoration-none text-light fw-bold"><i
+                class="bi bi-house-door-fill"></i>home</a>
+            <span class=" mx-2 text-success">/</span>
+            <a href="" class="text-uppercase text-decoration-none fw-bold text-black">Product</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- products section here -->
+  <section id="product_section" class="py-5">
+    <div class="container-fluid">
+      <h2 class="text-uppercase text-center">products</h2>
+      <div class="row">
+        <ul class="nav justify-content-center nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-Latest-tab" data-bs-toggle="pill" data-bs-target="#pills-Latest"
+              type="button" role="tab" aria-controls="pills-Latest" aria-selected="true">Latest</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-Top-tab" data-bs-toggle="pill" data-bs-target="#pills-Top" type="button"
+              role="tab" aria-controls="pills-Top" aria-selected="false">Top</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-Best-tab" data-bs-toggle="pill" data-bs-target="#pills-Best"
+              type="button" role="tab" aria-controls="pills-Best" aria-selected="false">Best</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-Latest" role="tabpanel" aria-labelledby="pills-Latest-tab"
+            tabindex="0">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card h-100 shadow-lg">
+                  <div class="card-img overflow-hidden">
+                    <img src="./assets/img/osha grove.webp" alt="" class="img-fluid rounded zoom-img">
+                  </div>
+                  <h5 class="card-title text-center fs-3">Osha Grove</h5>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card h-100 shadow-lg">
+                  <div class="card-img overflow-hidden">
+                    <img src="./assets/img/tilo vine.webp" alt="" class="img-fluid rounded zoom-img">
+                  </div>
+                  <h5 class="card-title text-center fs-3">Tilo Vine</h5>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card h-100 shadow-lg">
+                  <div class="card-img overflow-hidden">
+                    <img src="./assets/img/lira leaf.webp" alt="" class="img-fluid rounded zoom-img">
+                  </div>
+                  <h5 class="card-title text-center fs-3">Lira Leaf</h5>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card h-100 shadow-lg">
+                  <div class="card-img overflow-hidden">
+                    <img src="./assets/img/kira bud.webp" alt="" class="img-fluid rounded zoom-img">
+                  </div>
+                  <h5 class="card-title text-center fs-3">Kira Bud</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="pills-Top" role="tabpanel" aria-labelledby="pills-Top-tab" tabindex="0">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card h-100 shadow-lg">
+                <div class="card-img overflow-hidden">
+                  <img src="./assets/img/fira leaf.webp" alt="" class="img-fluid rounded zoom-img">
+                </div>
+                <h5 class="card-title text-center fs-3">Fira Leaf</h5>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card h-100 shadow-lg">
+                <div class="card-img overflow-hidden">
+                  <img src="./assets/img/mavi flora.webp" alt="" class="img-fluid rounded zoom-img">
+                </div>
+                <h5 class="card-title text-center fs-3">Mavi Flora</h5>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card h-100 shadow-lg">
+                <div class="card-img overflow-hidden">
+                  <img src="./assets/img/elar green.webp" alt="" class="img-fluid rounded zoom-img">
+                </div>
+                <h5 class="card-title text-center fs-3">Elar Green</h5>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card h-100 shadow-lg">
+                <div class="card-img overflow-hidden">
+                  <img src="./assets/img/mavi-flora.webp" alt="" class="img-fluid rounded zoom-img">
+                </div>
+                <h5 class="card-title text-center fs-3">Mavi Flora</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="pills-Best" role="tabpanel" aria-labelledby="pills-Best-tab" tabindex="0">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card h-100 shadow-lg">
+                <div class="card-img overflow-hidden">
+                  <img src="./assets/img/ophi leaf.webp" alt="" class="img-fluid rounded zoom-img">
+                </div>
+                <h5 class="card-title text-center fs-3">Ophi Leaf</h5>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card h-100 shadow-lg">
+                <div class="card-img overflow-hidden">
+                  <img src="./assets/img/liora bloom.webp" alt="" class="img-fluid rounded zoom-img">
+                </div>
+                <h5 class="card-title text-center fs-3">Liora Bloom</h5>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card h-100 shadow-lg">
+                <div class="card-img overflow-hidden">
+                  <img src="./assets/img/lune spring.webp" alt="" class="img-fluid rounded zoom-img">
+                </div>
+                <h5 class="card-title text-center fs-3">Lune Spring</h5>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card zoom-card h-100 shadow-lg overflow-hidden">
+                <div class="card-img overflow-hidden">
+                  <img src="./assets/img/fano twig.webp" alt="" class="img-fluid rounded zoom-img">
+                </div>
+                <h5 class="card-title text-center fs-3">Fano Twig</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- featured catagorized -->
+  <section id="feature_section" class="py-5 overflow-hidden">
+    <div class="conntainer-fluid">
+      <div class="content text-center">
+        <h2 class="text-uppercase fw-bold">Product Information</h2>
+        <p class="text-break">Product information for plants generally falls into two categories: botanical care data
+          (how to grow the plant) and crop/market products (goods derived from plants). Understanding plant
+          specifications ensures successful cultivation and proper utilization</p>
+      </div>
+
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6">
+          <div class="card shadow-lg overflow-hidden">
+            <img src="./assets/img/ba18.webp" alt="" class="img-fluid zoom-img rounded">
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card h-100">
+            <h5 class="card-title fw-bold fs-3 text-center">Product Information</h5>
+            <ul class="card-body p-3">
+              <li class=" mx-3"><strong>Plant size options:</strong> Plant sizes are categorized by both their
+                height and the volume/diameter of their nursery grow pots. Options typically
+                range from <mark>small plugs and 4-inch containers for cuttings to 25+ gallon pots for
+                  mature trees</mark>.</li>
+              <li class=" mx-3"><strong>Light requirements:</strong> Plant light requirements dictate a plant's
+                ability to photosynthesize and grow. They are categorized by intensity and
+                duration, ranging from direct sun for sun-lovers (like succulents) to low, indirect light for
+                shade-tolerant species
+                (like snake plants)</li>
+              <li class=" mx-3"><strong>Watering requirements:</strong> Optimal watering requires supplying water
+                deeply and infrequently, rather than splashing the surface daily. Most plants,
+                lawns, and landscapes need about 2.5 cm (1 inch) of water weekly. Water thoroughly until the soil is
+                moist down to 12 to
+                15 cm (5 to 6 inches) so it reaches deep root zones.</li>
+              <li class="mx-3"><strong>Toxicity level (especially for pets):</strong> The plant in the image is
+                a Spider Plant (Chlorophytum comosum), which is entirely non-toxic to dogs and cats. According
+                to official animal health databases like the ASPCA Pet Plant Guide, it contains no toxic chemical
+                compounds that pose a
+                systemic threat to domestic animals.</li>
+              <li class="mx-3"><strong>Repotting recommendations:</strong> <mark>Repot your plants only when
+                  they are
+                  root-bound—typically every 1 to 3 years</mark>. Choose a new pot just 1–2 inches larger in
+                diameter than the current one. For best results, repot during the active growing season (spring or
+                summer) to minimize
+                transplant shock and encourage healthy root growth.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6">
+          <div class="card h-100">
+            <h5 class="card-title fw-bold fs-3 text-center">Product Information</h5>
+            <ul class="card-body p-3">
+              <li class="mt-md-3 mx-3"><strong>Plant size options:</strong> Plant sizes are categorized by both their
+                height and the volume/diameter of their nursery grow pots. Options typically
+                range from <mark>small plugs and 4-inch containers for cuttings to 25+ gallon pots for
+                  mature trees</mark>.</li>
+              <li class="mt-md-3 mx-3"><strong>Light requirements:</strong> Plant light requirements dictate a plant's
+                ability to photosynthesize and grow. They are categorized by intensity and
+                duration, ranging from direct sun for sun-lovers (like succulents) to low, indirect light for
+                shade-tolerant species
+                (like snake plants)</li>
+              <li class="mt-md-3 mx-3"><strong>Watering requirements:</strong> Optimal watering requires supplying water
+                deeply and infrequently, rather than splashing the surface daily. Most plants,
+                lawns, and landscapes need about 2.5 cm (1 inch) of water weekly. Water thoroughly until the soil is
+                moist down to 12 to
+                15 cm (5 to 6 inches) so it reaches deep root zones.</li>
+              <li class="mt-md-3 mx-3"><strong>Toxicity level (especially for pets):</strong> The plant in the image is
+                a Spider Plant (Chlorophytum comosum), which is entirely non-toxic to dogs and cats. According
+                to official animal health databases like the ASPCA Pet Plant Guide, it contains no toxic chemical
+                compounds that pose a
+                systemic threat to domestic animals.</li>
+              <li class="mt-md-3 mx-3"><strong>Repotting recommendations:</strong> <mark>Repot your plants only when
+                  they are
+                  root-bound—typically every 1 to 3 years</mark>. Choose a new pot just 1–2 inches larger in
+                diameter than the current one. For best results, repot during the active growing season (spring or
+                summer) to minimize
+                transplant shock and encourage healthy root growth.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card shadow-lg overflow-hidden mt-5">
+            <img src="./assets/img/ba19.webp" alt="" class="img-fluid zoom-img rounded">
+          </div>
+        </div>
+      </div>
+
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6">
+          <div class="card shadow-lg overflow-hidden mt-5">
+            <img src="./assets/img/ba20.webp" alt="" class="img-fluid zoom-img rounded">
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card h-100">
+            <h5 class="card-title fw-bold fs-3 text-center">Product Information</h5>
+            <ul class="card-body p-3">
+              <li class="mt-md-3 mx-3"><strong>Plant size options:</strong> Plant sizes are categorized by both their
+                height and the volume/diameter of their nursery grow pots. Options typically
+                range from <mark>small plugs and 4-inch containers for cuttings to 25+ gallon pots for
+                  mature trees</mark>.</li>
+              <li class="mt-md-3 mx-3"><strong>Light requirements:</strong> Plant light requirements dictate a plant's
+                ability to photosynthesize and grow. They are categorized by intensity and
+                duration, ranging from direct sun for sun-lovers (like succulents) to low, indirect light for
+                shade-tolerant species
+                (like snake plants)</li>
+              <li class="mt-md-3 mx-3"><strong>Watering requirements:</strong> Optimal watering requires supplying water
+                deeply and infrequently, rather than splashing the surface daily. Most plants,
+                lawns, and landscapes need about 2.5 cm (1 inch) of water weekly. Water thoroughly until the soil is
+                moist down to 12 to
+                15 cm (5 to 6 inches) so it reaches deep root zones.</li>
+              <li class="mt-md-3 mx-3"><strong>Toxicity level (especially for pets):</strong> The plant in the image is
+                a Spider Plant (Chlorophytum comosum), which is entirely non-toxic to dogs and cats. According
+                to official animal health databases like the ASPCA Pet Plant Guide, it contains no toxic chemical
+                compounds that pose a
+                systemic threat to domestic animals.</li>
+              <li class="mt-md-3 mx-3"><strong>Repotting recommendations:</strong> <mark>Repot your plants only when
+                  they are
+                  root-bound—typically every 1 to 3 years</mark>. Choose a new pot just 1–2 inches larger in
+                diameter than the current one. For best results, repot during the active growing season (spring or
+                summer) to minimize
+                transplant shock and encourage healthy root growth.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Plant Parent Tips Section -->
+  <section id="planttips_secrion" class="py-5">
+    <div class="container-fluid">
+      <h2 class="text-uppercase text-center fw-bold">Plant Parent Tips Section</h2>
+      <p class="text-break text-center">To be a successful plant parent, focus on getting the fundamentals right: water
+        only when the topsoil is dry, provide the correct lighting for your specific variety, and use well-draining
+        soil. Avoid overwatering, as it is the most common mistake and often leads to fatal root rot.</p>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="ratio ratio-16x9 overflow-hidden">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/1dOoRwvO3qY?si=wdYFaBPxEhU8b4aQ"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="zoom-img rounded"></iframe>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="ratio ratio-16x9 overflow-hidden">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/Wb69MJ0rNBI?si=lDjeqCroxtdcE6DE"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="zoom-img rounded"></iframe>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="ratio ratio-16x9 overflow-hidden">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/Jh5oX0VRnzk?si=QS8BMdIDqOoEt9_c"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="zoom-img rounded"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section here -->
+  <footer id="footer_section" class="py-3 bg-dark">
+    <div class="container-fluid">
+      <div class="soket">
+        <p class="mb-0">Copyright © 2026 All rights reserved.</p>
+        <small>
+          <a href="#" class="text-white text-decoration-none mx-2">Privacy Policy</a>
+          |
+          <a href="#" class="text-white text-decoration-none mx-2"> Terms of Service</a>
+        </small>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- bootstrap js link here -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
