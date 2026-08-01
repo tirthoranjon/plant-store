@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, Times, serif ;
 }
 
 #navbar_section .active {
@@ -13,7 +13,7 @@
 
 #navbar_section a:hover {
 
-  color: yellowgreen !important;
+  color: rgb(10, 155, 238) !important;
 }
 
 #banner_section,
@@ -40,7 +40,7 @@
 }
 
 #breadcrumb_section {
-  background-image: url(../img/bloom.jpg);
+  background-image: url(../image/breadcumb.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
@@ -89,4 +89,7 @@
 }
 #plants_sections .card img{
   height: 200px;
+}
+#plant_photo .card img{
+  height: 400px;
 }
