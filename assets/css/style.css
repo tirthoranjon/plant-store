@@ -81,3 +81,12 @@
 #footer_section .soket a:hover {
   color: chartreuse !important;
 }
+#plants_section .card img{
+  height: 400px;
+}
+#curated-section .card img{
+  height: 400px;
+}
+#plants_sections .card img{
+  height: 200px;
+}
